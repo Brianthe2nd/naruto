@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from math import ceil,floor
 from playwright.sync_api import sync_playwright
-from test import download_file
+from download import download_file
 
 
 def get_episodes(page = 1):
